@@ -1,9 +1,7 @@
 <div align="center">
   <h1>EU Statups flyover</h3>
   <p>
-    A web based application that shows you some variations of the name you enter.
-    <br />
-    <a href="https://name-variatons-app.vercel.app/"><strong>Website »</strong></a>
+    Click the "Next Startup" button below to fly to a differrent startup based in EU!
   </p>
 </div>
 
@@ -36,6 +34,7 @@
 ## Developed With
 
 - [Parcel](https://parceljs.org/)
+- [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/)
 
 ## Getting Started
 
@@ -51,12 +50,14 @@ Follow the following steps to get development environment running.
    git clone https://github.com/marekzelinka/eu-startups-flyover.git
    ```
 
-1. Install node modules
+2. Install node modules
 
    ```sh
    cd eu-startups-flyover
    npm install
    ```
+
+3. Setup enviroment variables, see `.env.local.example` file
 
 ### Usage
 

@@ -3,17 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your site</title>
-    <link
-      href="https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css"
-      rel="stylesheet"
-    />
+    <title>EU Startups Flyover</title>
     <link rel="stylesheet" href="./app.css" />
   </head>
   <body>
-    <h2>Don't forget to replace the access token!</h2>
+    <header>
+      <h1>Breakout List 2021!</h1>
+      <p>Great Companies to Work for in Europe!</p>
+      <p>
+        Click the "Next Startup" button below to fly to a differrent startup
+        based in EU!
+      </p>
+      <small
+        >Make sure you set the <code>MAPBOX_ACCESS_TOKEN</code> enviroment
+        variable in the <code>.env.local</code> file!</small
+      >
+    </header>
     <div id="map"></div>
-    <script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
+    <button id="fly">Next Startup</button>
     <script type="module" src="./index.js"></script>
   </body>
 </html>
