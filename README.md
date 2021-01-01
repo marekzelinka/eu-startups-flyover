@@ -1,7 +1,7 @@
 <div align="center">
-  <h1>EU Statups flyover</h3>
+  <h1>EU Statups Flyover</h3>
   <p>
-    Click the "Next Startup" button below to fly to a differrent startup based in EU!
+    Click the "Next Startup" button below to fly to a different startup based in the EU!
   </p>
 </div>
 
