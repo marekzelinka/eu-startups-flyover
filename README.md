@@ -2,6 +2,8 @@
   <h1>EU Statups flyover</h3>
   <p>
     Click the "Next Startup" button below to fly to a differrent startup based in EU!
+    <br />
+    <a href="https://eu-startups-flyover.vercel.app/"><strong>Website »</strong></a>
   </p>
 </div>
 
